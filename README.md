@@ -29,3 +29,15 @@ instantiated.
 # More to come....
 
 * Backbone / Spine sync extension
+
+# TODO (jsw)
+
+*    Make a quick SQL to js-where-object converter
+	 Where X between A and B => where={'X':{'$gte':A, '$lt':B}}
+
+*	 Make this and docs into an interactive tutorial
+	 https://parse.com/docs/rest#queries
+
+*	 login & update user data
+         Consider adding X-Parse-Session-Token: to req.headers in _http()
+
