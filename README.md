@@ -30,12 +30,13 @@ instantiated.
 
 * Backbone / Spine sync extension
 
-# TODO (jsw)
+# TODO (josher19)
 
-*    Make a quick SQL to js-where-object converter
-	 Where X between A and B => where={'X':{'$gte':A, '$lt':B}}
+*    (DONE) Make a quick SQL to js-where-object converter. 
+	 WHERE x BETWEEN "A" AND "B" => where={"x":{"$gte":"A", "$lte":"B"}}
+         https://github.com/josher19/parse-where
 
-*	 Make this and docs into an interactive tutorial
+*	 Make an interactive tutorial based on
 	 https://parse.com/docs/rest#queries
 
 *	 login & update user data
