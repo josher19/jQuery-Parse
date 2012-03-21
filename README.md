@@ -1,4 +1,3 @@
-
 ## What is it? 
 
 It's a super light-weight AJAX wrapper for Parse.com's wonderful database service. 
@@ -33,16 +32,16 @@ instantiated.
 
 ## TODO (josher19)
 
-*    (DONE) Make a quick SQL to js-where-object converter. 
-	 WHERE x BETWEEN "A" AND "B" => where={"x":{"$gte":"A", "$lte":"B"}}
-         https://github.com/josher19/parse-where
+*  (DONE) Make a quick SQL to js-where-object converter. 
+   WHERE x BETWEEN "A" AND "B" => where={"x":{"$gte":"A", "$lte":"B"}}
+   https://github.com/josher19/parse-where
 
-*	 Make an interactive tutorial based on
-	 https://parse.com/docs/rest#queries
+* Make an interactive tutorial based on
+  https://parse.com/docs/rest#queries
 
-*	 login & update user data
+* login & update user data
          Consider adding X-Parse-Session-Token: to req.headers in _http()
 
-*	 Load data serially or in parallel.
+* Load data serially or in parallel.
 
-*	 Node.js
+* Node.js
