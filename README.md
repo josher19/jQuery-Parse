@@ -1,13 +1,14 @@
-# What is it? 
+
+## What is it? 
 
 It's a super light-weight AJAX wrapper for Parse.com's wonderful database service. 
 
-# Why did you build it? 
+### Why did you build it? 
 
 I wanted a stupid-easy data store that I could use strictly from the client. No server needed! 
 Write a thick front end application or app prototype. 
 
-# New!
+### New!
 
 __Serve your app from http, cross domain calls FTW!__
 Parse launched support for __cross-origin__ resource sharing using CORS.
@@ -19,18 +20,18 @@ You can now just pass your application id and rest key right to `$.parse.init` a
 		rest_key : undefined // <--enter your REST API Key here	
 	});
 
-# Prototyping love. 
+### Prototyping love. 
 
 * No Schema! Just fire a $.parse.post & forget it. If the collection hasn't been created already it will be 
 instantiated. 
 
 * Super simple... just $.parse.get/post/put/delete
 
-# More to come....
+### More to come....
 
 * Backbone / Spine sync extension
 
-# TODO (josher19)
+## TODO (josher19)
 
 *    (DONE) Make a quick SQL to js-where-object converter. 
 	 WHERE x BETWEEN "A" AND "B" => where={"x":{"$gte":"A", "$lte":"B"}}
@@ -42,3 +43,6 @@ instantiated.
 *	 login & update user data
          Consider adding X-Parse-Session-Token: to req.headers in _http()
 
+*	 Load data serially or in parallel.
+
+*	 Node.js
